@@ -11,5 +11,13 @@
 
     <artifactId>rabbit-java-api</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.rabbitmq</groupId>
+            <artifactId>amqp-client</artifactId>
+            <version>5.6.0</version>
+        </dependency>
+    </dependencies>
+
 
 </project>
