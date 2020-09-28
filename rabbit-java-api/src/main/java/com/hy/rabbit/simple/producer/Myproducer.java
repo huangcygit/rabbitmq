@@ -24,7 +24,7 @@ public class Myproducer {
         String msg = "first rabbitmq message";
 
         //发送到交换机，通过路由键发送到相应的队列
-        channel.basicPublish("EXCHANGE_NAME","hy.test",null,msg.getBytes());
+        channel.basicPublish(EXCHANGE_NAME,"hy.test",null,msg.getBytes());
         channel.close();
         connection.close();
     }

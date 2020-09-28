@@ -19,6 +19,8 @@
         <module>rabbit-java-api</module>
         <module>rabbit-spring</module>
         <module>rabbit-springboot</module>
+        <module>spring-kafka</module>
+        <module>rabbit-springboot-producer</module>
     </modules>
 
 
